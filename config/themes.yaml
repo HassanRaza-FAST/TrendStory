@@ -1,0 +1,11 @@
+# themes.yaml
+themes:
+  - action
+  - comedy
+  - drama
+  - fantasy
+  - horror
+  - mystery
+  - romance
+  - sci-fi
+  - tragedy

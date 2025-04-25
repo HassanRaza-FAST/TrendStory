@@ -1,0 +1,11 @@
+grpcio
+grpcio-tools
+protobuf
+google-api-python-client
+python-dotenv
+google-generativeai
+requests
+streamlit              # or gradio
+pytest
+pytest-asyncio
+PyYAML

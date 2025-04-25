@@ -1,0 +1,22 @@
+syntax = "proto3";
+package trendstory;
+
+// The service definition.
+service StoryService {
+  // Unary RPC for generating a story script.
+  rpc GenerateStory(GenerateRequest) returns (GenerateResponse);
+}
+
+// The request message containing user parameters.
+message GenerateRequest {
+  string theme        = 1;  // e.g. "comedy", "sad"
+  string region_code  = 2;  // e.g. "US"
+  int32 top_n         = 3;  // number of Google Trends terms
+  float temperature   = 4;  // creativity control, 0.0–1.0
+  string source       = 5;  // google", "youtube
+}
+
+// The response containing the screenplay.
+message GenerateResponse {
+  string script = 1;
+}
