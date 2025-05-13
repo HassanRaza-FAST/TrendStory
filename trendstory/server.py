@@ -105,7 +105,3 @@ async def serve():
 if __name__ == "__main__":
     asyncio.run(serve())
 
-#TODO:
-# 3. Docker
-# 4. Documentation(readme)
-# 5. Uninstall C:\Users\Wajeeha Raza\AppData\Local\ms-playwright\
